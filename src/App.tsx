@@ -1,5 +1,7 @@
 import "./App.css";
 
-function App() {}
+function App() {
+  return <span>Hello, React!</span>;
+}
 
 export default App;
