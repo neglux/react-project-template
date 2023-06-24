@@ -77,6 +77,9 @@ For example, if you are working on a bug fix with task number 123 and the brief 
 3. **PR State Label**: The pull request owner must add a label that indicates the state of the PR. There are two possible labels:
    - `Work in progress`: Use this label if the PR is still in progress and not ready for final review and merging.
    - `Ready to merge`: Apply this label when the PR is complete and ready for final review and merging.
+     
+![image](https://github.com/neglux/react-project-template/assets/90967608/735c04b1-9633-4e3c-bc8c-0658e8a6f158) 
+   
 4. **Clear and Concise Description**: Provide a clear and concise description of the changes made in the pull request. Explain the problem being addressed, the solution implemented, and any considerations or side effects of the changes. Include relevant information that helps reviewers understand the context and purpose of the pull request.
 
 By following these guidelines, it becomes easier for reviewers and team members to track, review, and manage pull requests effectively.
