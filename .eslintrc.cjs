@@ -10,10 +10,18 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: "./tsconfig.json",
+    project: "tsconfig.json",
   },
   plugins: ["react-refresh"],
   rules: {
     "react-refresh/only-export-components": "warn",
+    "react/react-in-jsx-scope": "off",
+    quotes: "off",
+    "@typescript-eslint/quotes": "off",
+    "import/no-absolute-path": "off",
+    "import/extensions": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/comma-dangle": "off",
   },
 };
