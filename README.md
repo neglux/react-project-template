@@ -1,5 +1,5 @@
 - [Development Practices](#development-practices)
-  - [Creating Branches](#step-1:-creating-branches-for-contribution) 
+  - [Creating Branches](#creating-branches) 
 - [Pair Programming Guidelines](#pair-programming-guidelines)
 - [Daily Scrum Meeting Guidelines](#daily-scrum-meeting-guidelines)
 - [Code Review Proccess](#code-review-process)
