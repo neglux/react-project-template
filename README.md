@@ -61,18 +61,14 @@ When you are ready to submit your work for review and merging, follow these guid
 1. **Pull Request Title**: The title of the pull request should follow this format:
 
 ```
-[<task_number>] <brief_description>
+[<taskNumber>] <briefDescription>
 ```
-
-The `<task_number>` corresponds to the unique identifier of the task, while `<brief_description>` provides a concise summary of the changes made.
-
 For example, if you are working on a bug fix with task number 123 and the brief description is "Fix login form validation," the pull request title should be:
-
 ```
 [123] Fix login form validation
 ```
 
-2. **Labeling**: Assign the appropriate `<task_type>` label to the pull request. This ensures that the PR is categorized correctly based on the type of task being addressed (e.g., `bug`, `enhancement`, `feature`).
+2. **Labeling**: Assign the appropriate `<taskType>` label to the pull request. This ensures that the PR is categorized correctly based on the type of task being addressed (e.g., `bug`, `enhancement`, `feature`).
 
 3. **PR State Label**: The pull request owner must add a label that indicates the state of the PR. There are two possible labels:
    - `Work in progress`: Use this label if the PR is still in progress and not ready for final review and merging.
