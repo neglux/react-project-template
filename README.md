@@ -63,7 +63,9 @@ When you are ready to submit your work for review and merging, follow these guid
 ```
 [<taskNumber>] <briefDescription>
 ```
+
 For example, if you are working on a bug fix with task number 123 and the brief description is "Fix login form validation," the pull request title should be:
+
 ```
 [123] Fix login form validation
 ```
@@ -73,9 +75,73 @@ For example, if you are working on a bug fix with task number 123 and the brief 
 3. **PR State Label**: The pull request owner must add a label that indicates the state of the PR. There are two possible labels:
    - `Work in progress`: Use this label if the PR is still in progress and not ready for final review and merging.
    - `Ready to merge`: Apply this label when the PR is complete and ready for final review and merging.
-     
-![image](https://github.com/neglux/react-project-template/assets/90967608/735c04b1-9633-4e3c-bc8c-0658e8a6f158) 
-   
+
+![image](https://github.com/neglux/react-project-template/assets/90967608/735c04b1-9633-4e3c-bc8c-0658e8a6f158)
+
 4. **Clear and Concise Description**: Provide a clear and concise description of the changes made in the pull request. Explain the problem being addressed, the solution implemented, and any considerations or side effects of the changes. Include relevant information that helps reviewers understand the context and purpose of the pull request.
 
 By following these guidelines, it becomes easier for reviewers and team members to track, review, and manage pull requests effectively.
+
+# Pair Programming Guidelines
+
+Pair programming is an effective way to promote learning, collaboration, and problem-solving within our team.
+
+- **Initial Independent Effort**: Spend an initial period of focused effort on the problem independently, typically between 45 minutes to 1 hour, depending on the complexity of the task.
+
+- **Assess Progress and Understanding**: After the initial independent effort, assess your progress and understanding of the problem. If you've made some progress but still need assistance or have specific questions, consider requesting a pair.
+
+- **Recognizing Stuck Points**: If you encounter significant difficulties, struggle to make progress, or feel unsure about the best approach, feel comfortable requesting a pair sooner rather than later.
+
+- **Encourage Frequent Communication**: Open communication is key. Ask questions, seek clarification, and share your challenges or concerns with the team.
+
+Remember, the goal is to balance independent learning and problem-solving with collaboration and support. Don't hesitate to reach out for assistance when needed.
+
+# Daily Scrum Meeting Guidelines
+
+The daily scrum meeting, also known as the daily stand-up, is a short and focused meeting that helps the team stay aligned and ensure progress towards project goals. Here are the key points and guidelines for our daily scrum meetings:
+
+- **Be Punctual**: Arrive on time for the meeting to ensure everyone can start and finish promptly. Respect the time of your fellow team members.
+
+- **Keep it Short**: The daily scrum meeting should be time-boxed to a maximum of 15 minutes. Each team member should provide a brief update on their progress and plans.
+
+- **Answer Three Questions**: Share the following information during the meeting:
+
+  1. What did you accomplish since the last meeting?
+  2. What are you planning to work on today?
+  3. Are there any obstacles or challenges you're facing?
+
+- **Focus on Key Tasks**: Highlight the key tasks or user stories you're working on. Keep the discussion concise and relevant to the current sprint's goals.
+
+- **Listen and Support**: Pay attention to what others share during their updates. Offer support, provide input when needed, and identify opportunities for collaboration or assistance.
+
+- **Considerations**
+
+  - **Avoid Detailed Problem Solving**: Avoid diving into detailed problem-solving discussions during the daily scrum meeting. If additional discussions are necessary, schedule them separately to avoid extending the meeting duration.
+
+  - **Avoid One-on-One Conversations**: The daily scrum meeting is a team-wide update. Avoid engaging in one-on-one conversations or side discussions that exclude other team members.
+
+  - **Avoid Long Status Updates**: Keep your updates concise and to the point. Avoid lengthy explanations or providing unnecessary details that can be discussed outside of the meeting.
+
+  - **Latecomers**: Try to be present at the start of the meeting. If you're running late, join quietly and catch up without disrupting the flow of the meeting.
+
+Remember, the daily scrum meeting is an opportunity to synchronize efforts, identify any impediments, and foster collaboration within the team. By adhering to these guidelines, we can maximize the effectiveness of our daily scrum meetings.
+
+# Code Review Process
+
+Code reviews play a crucial role in maintaining code quality, ensuring best practices, and fostering collaboration within our development team. Here's an overview of our code review process:
+
+1. **Pull Request Submission**: When you're ready to submit a new feature or bug fix, create a new branch following the branch naming convention mentioned earlier. Push your branch to the remote repository and open a pull request (PR) targeting the appropriate branch (e.g., `main` or a specific release branch).
+
+2. **Linting**: Upon opening a pull request, an automated linter will run to check for any coding style or formatting issues. If the linter fails, make the necessary corrections locally and push the changes to your branch. The linter should pass before requesting a code review.
+
+3. **Conflict Resolution**: If there are conflicts with the target branch, reach out to the tech lead. They will assist you in resolving the conflicts and ensuring a smooth merge process.
+
+4. **Code Review**: Once your pull request is ready for review, the reviewer will go through your code, providing feedback, suggestions, and identifying potential issues. Be responsive to the feedback and address any requested changes or improvements promptly.
+
+5. **Collaborative Discussion**: Engage in a constructive and collaborative discussion with the reviewer. Ask questions, seek clarification, and discuss any areas of uncertainty or potential improvements. The goal is to ensure that the code meets the project's standards, best practices, and requirements.
+
+6. **Iterative Refinement**: Make the necessary changes based on the feedback received during the code review. Update your branch, push the changes, and the pull request will be automatically updated. Notify the reviewer once the changes are made, and they will re-review the code.
+
+7. **Approval and Merge**: Once the reviewer approves the pull request and all requested changes have been addressed, the reviewer or a designated team lead will merge the code into the target branch.
+
+By following this code review process, we aim to maintain a high level of code quality, ensure adherence to coding standards, and foster a collaborative and learning-oriented development environment.
