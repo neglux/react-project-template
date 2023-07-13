@@ -1,3 +1,8 @@
+- [Development Practices](#development-practices)
+- [Pair Programming Guidelines](#pair-programming-guidelines)
+- [Daily Scrum Meeting Guidelines](#daily-scrum-meeting-guidelines)
+- [Code Review Proccess](#code-review-process)
+  
 # Development Practices
 
 ## Git Version Control
