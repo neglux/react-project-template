@@ -1,9 +1,9 @@
-- [Development Practices](#development-practices)
+# Developer Guideline
+
+- [Version Control](#git-version-control)
 - [Pair Programming Guidelines](#pair-programming-guidelines)
 - [Daily Scrum Meeting Guidelines](#daily-scrum-meeting-guidelines)
 - [Code Review Proccess](#code-review-process)
-  
-# Development Practices
 
 ## Git Version Control
 
@@ -14,6 +14,8 @@ This project utilizes Git for version control.
 **Step 1: Creating Branches**
 
 In order to contribute to the project, all developers should create branches following the specified naming convention. The branch naming convention should be as follows:
+
+> **Note:** All branches should be created from **dev** branch
 
 Here are the details for each component of the branch name convention:
 
@@ -37,7 +39,7 @@ For example, if a developer is working on an enhancement task with the task numb
 enhancement/42_update-user-profile
 ```
 
-**Important: Do not push directly to the main branch!** It is crucial to avoid pushing changes directly to the main branch. Instead, always create a new branch for your work and submit a pull request when ready for code review and merging.
+> **Important: Do not push directly to the dev branch!** It is crucial to avoid pushing changes directly to the dev branch. Instead, always create a new branch from dev and submit a pull request when ready for code review and merging.
 
 By following this naming convention, it becomes easier to track and manage tasks within the version control system.
 
@@ -57,11 +59,19 @@ git commit -m "Commit message" # Commit the changes with a descriptive message
 
 > **Note:** It is recommended to use the command line interface for Git operations instead of built-in IDE tools when commiting. This ensures compatibility with our Husky verification and pre-commit hooks. Please avoid using IDE-specific Git tools for a consistent development workflow.
 
+Here are some examples of bad commit messages to avoid:
+
+- "Fix bug"
+- "Update code"
+- "Changes"
+- "Testing"
+- "Attım tut"
+
 Having clear and informative commit messages is crucial for maintaining a well-documented and organized codebase. Follow these guidelines when writing commit messages:
 
 - **Be Descriptive**: Provide a concise and descriptive summary of the changes made in the commit. The message should accurately convey the purpose and impact of the commit.
 
-- **Use Imperative Verbs**: Write commit messages in the imperative mood. Start the message with a verb that describes what the commit does. For example, instead of saying "Fixed a bug," use "Fix bug" or "Update documentation."
+- **Use Imperative Verbs**: Write commit messages in the imperative mood. Start the message with a verb that describes what the commit does.
 
 - **Keep it Short**: Ideally, commit messages should be no longer than 50-72 characters in the subject line. If necessary, provide additional details in the body of the commit message, separating it from the subject line with a blank line.
 
@@ -105,7 +115,7 @@ For example, if you are working on a bug fix with task number 123 and the brief 
 
 By following these guidelines, it becomes easier for reviewers and team members to track, review, and manage pull requests effectively.
 
-# Pair Programming Guidelines
+## Pair Programming Guidelines
 
 Pair programming is an effective way to promote learning, collaboration, and problem-solving within our team.
 
@@ -119,7 +129,7 @@ Pair programming is an effective way to promote learning, collaboration, and pro
 
 Remember, the goal is to balance independent learning and problem-solving with collaboration and support. Don't hesitate to reach out for assistance when needed.
 
-# Daily Scrum Meeting Guidelines
+## Daily Scrum Meeting Guidelines
 
 The daily scrum meeting, also known as the daily stand-up, is a short and focused meeting that helps the team stay aligned and ensure progress towards project goals. Here are the key points and guidelines for our daily scrum meetings:
 
@@ -149,11 +159,11 @@ The daily scrum meeting, also known as the daily stand-up, is a short and focuse
 
 Remember, the daily scrum meeting is an opportunity to synchronize efforts, identify any impediments, and foster collaboration within the team. By adhering to these guidelines, we can maximize the effectiveness of our daily scrum meetings.
 
-# Code Review Process
+## Code Review Process
 
 Code reviews play a crucial role in maintaining code quality, ensuring best practices, and fostering collaboration within our development team. Here's an overview of our code review process:
 
-1. **Pull Request Submission**: When you're ready to submit a new feature or bug fix, create a new branch following the branch naming convention mentioned earlier. Push your branch to the remote repository and open a pull request (PR) targeting the appropriate branch (e.g., `main` or a specific release branch).
+1. **Pull Request Submission**: When you're ready to submit a new feature or bug fix, create a new branch following the branch naming convention mentioned earlier. Push your branch to the remote repository and open a pull request (PR) targeting the appropriate branch (e.g., `dev`).
 
 2. **Linting**: Upon opening a pull request, an automated linter will run to check for any coding style or formatting issues. If the linter fails, make the necessary corrections locally and push the changes to your branch. The linter should pass before requesting a code review.
 
@@ -169,7 +179,7 @@ Code reviews play a crucial role in maintaining code quality, ensuring best prac
 
 By following this code review process, we aim to maintain a high level of code quality, ensure adherence to coding standards, and foster a collaborative and learning-oriented development environment.
 
-# Frontend Development Workflow
+## Frontend Development Workflow
 
 ### Prerequisites
 
