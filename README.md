@@ -1,6 +1,12 @@
 # Development Practices
 
-**Step 1: Creating Branches for Contribution**
+## Git Version Control
+
+This project utilizes Git for version control.
+
+### Contribution Steps
+
+**Step 1: Creating Branches**
 
 In order to contribute to the project, all developers should create branches following the specified naming convention. The branch naming convention should be as follows:
 
@@ -33,6 +39,18 @@ By following this naming convention, it becomes easier to track and manage tasks
 Remember to communicate and coordinate with the team to avoid any naming conflicts.
 
 **Step 2: Writing Commit Messages**
+
+To commit your changes locally, use the following commands:
+
+```bash
+git add . #Add all modified files to the staging area
+```
+
+```bash
+git commit -m "Commit message" # Commit the changes with a descriptive message
+```
+
+> **Note:** It is recommended to use the command line interface for Git operations instead of built-in IDE tools when commiting. This ensures compatibility with our Husky verification and pre-commit hooks. Please avoid using IDE-specific Git tools for a consistent development workflow.
 
 Having clear and informative commit messages is crucial for maintaining a well-documented and organized codebase. Follow these guidelines when writing commit messages:
 
@@ -145,3 +163,46 @@ Code reviews play a crucial role in maintaining code quality, ensuring best prac
 7. **Approval and Merge**: Once the reviewer approves the pull request and all requested changes have been addressed, the reviewer or a designated team lead will merge the code into the target branch.
 
 By following this code review process, we aim to maintain a high level of code quality, ensure adherence to coding standards, and foster a collaborative and learning-oriented development environment.
+
+# Frontend Development Workflow
+
+### Prerequisites
+
+Before you begin, please ensure that you have the following software installed on your machine:
+
+- [Nodejs](https://nodejs.org/en)
+- [Yarn](https://yarnpkg.com/)
+
+### Getting Started
+
+To set up the project, follow these steps:
+
+1. Clone the project repository from GitHub.
+2. Open a terminal and navigate to the project directory.
+3. Run the following command to install project dependencies:
+
+```bash
+yarn install
+```
+
+### Development Workflow
+
+To start the development server and run the application locally, use the following commands:
+
+```bash
+yarn dev
+```
+
+This will launch the development server and open the application in your default browser.
+
+> **Tip:** Any changes you make to the source code will trigger hot-reloading and automatically update the running application.
+
+### Resources
+
+Here are some resources to help you get started with the tools used in this project:
+
+- [React Documentation](https://reactjs.org/docs)
+- [Yarn Documentation](https://yarnpkg.com/getting-started)
+- [Vite Documentation](https://vitejs.dev/guide)
+
+> **Note:** This project requires the use of Yarn as the package manager. Please make sure to use Yarn instead of other package managers (e.g., npm) throughout the development process.
