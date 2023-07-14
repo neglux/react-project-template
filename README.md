@@ -1,13 +1,17 @@
 # Developer Guideline
 
 - [Version Control](#git-version-control)
+- [Code Review Proccess](#code-review-process)
+- [Frontend Development Workflow](#frontend-development-workflow)
+- [Communication with Leads](#communication-with-leads)
 - [Pair Programming Guidelines](#pair-programming-guidelines)
 - [Daily Scrum Meeting Guidelines](#daily-scrum-meeting-guidelines)
-- [Code Review Proccess](#code-review-process)
 
 ## Git Version Control
 
 This project utilizes Git for version control.
+
+[Git in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
 
 ### Contribution Steps
 
@@ -89,7 +93,9 @@ Please ensure that every commit adheres to these guidelines.
 
 **Step 3: Opening a Pull Request (PR)**
 
-When you are ready to submit your work for review and merging, follow these guidelines for opening a pull request:
+When you're ready to submit a new feature or bug fix, create a new branch following the branch naming convention mentioned earlier.
+
+Push your branch to the remote repository and open a pull request (PR) targeting the appropriate branch (e.g., `dev`).
 
 1. **Pull Request Title**: The title of the pull request should follow this format:
 
@@ -114,6 +120,127 @@ For example, if you are working on a bug fix with task number 123 and the brief 
 4. **Clear and Concise Description**: Provide a clear and concise description of the changes made in the pull request. Explain the problem being addressed, the solution implemented, and any considerations or side effects of the changes. Include relevant information that helps reviewers understand the context and purpose of the pull request.
 
 By following these guidelines, it becomes easier for reviewers and team members to track, review, and manage pull requests effectively.
+
+**Step 3: Sending for Code Review**
+
+Code reviews play a crucial role in maintaining code quality, ensuring best practices, and fostering collaboration within our development team. Here's an overview of our code review process:
+
+1. **Linting**: Upon opening a pull request, an automated linter will run to check for any coding style or formatting issues. If the linter fails, make the necessary corrections locally and push the changes to your branch. The linter should pass before requesting a code review.
+
+2. **Conflict Resolution**: If there are conflicts with the target branch, reach out to the tech lead. They will assist you in resolving the conflicts and ensuring a smooth merge process.
+
+3. **Code Review**: Once your pull request is ready for review, the reviewer will go through your code, providing feedback, suggestions, and identifying potential issues. Be responsive to the feedback and address any requested changes or improvements promptly.
+
+4. **Collaborative Discussion**: Engage in a constructive and collaborative discussion with the reviewer. Ask questions, seek clarification, and discuss any areas of uncertainty or potential improvements. The goal is to ensure that the code meets the project's standards, best practices, and requirements.
+
+5. **Iterative Refinement**: Make the necessary changes based on the feedback received during the code review. Update your branch, push the changes, and the pull request will be automatically updated. Notify the reviewer once the changes are made, and they will re-review the code.
+
+**Step 4: Approval and Merge**
+
+Once the reviewer approves the pull request and all requested changes have been addressed,A designated team lead will merge the code into the target branch.
+
+> **Note:**: Never Merge Your Own Pull Requests.
+
+## Frontend Development Workflow
+
+### Prerequisites
+
+Before you begin, please ensure that you have the following software installed on your machine:
+
+- [Nodejs](https://www.youtube.com/watch?v=ENrzD9HAZK4)
+- [Yarn](https://yarnpkg.com/)
+
+### Getting Started
+
+To set up the project, follow these steps:
+
+1. Clone the project repository from GitHub.
+2. Open a terminal and navigate to the project directory.
+3. Run the following command to install project dependencies:
+
+```bash
+yarn install
+```
+
+### Development Workflow
+
+To start the development server and run the application locally, use the following commands:
+
+```bash
+yarn dev
+```
+
+This will launch the development server and open the application in your default browser.
+
+> **Tip:** Any changes you make to the source code will trigger hot-reloading and automatically update the running application.
+
+### Resources
+
+Here are some resources to help you get started with the tools used in this project:
+
+- [React in 100 Seconds](https://www.youtube.com/watch?v=Tn6-PIqc4UM)
+- [Yarn Documentation](https://yarnpkg.com/getting-started/usage)
+- [Vite in 100 Seconds](https://www.youtube.com/watch?v=KCrXgy8qtjM)
+
+> **Note:** This project requires the use of Yarn as the package manager. Please make sure to use Yarn instead of other package managers (e.g., npm) throughout the development process.
+
+### Mentine as UI Library
+
+In our project, we utilize the Mentine UI library for frontend development.
+
+[Mentine UI library documentation](https://ui.mantine.dev/).
+
+The documentation provides detailed information on component usage, customization options, theming, and other valuable resources to help you utilize Mentine effectively in your frontend development.
+
+### TypeScript
+
+In our project, we utilize TypeScript as our programming language of choice for frontend and backend development.
+
+[TypeScript in 100 Seconds](https://www.youtube.com/watch?v=zQnBQ4tB3ZA).
+
+TypeScript is a superset of JavaScript that adds static typing capabilities, providing enhanced tooling, improved code quality, and better developer productivity.
+
+- **Type Safety:** TypeScript introduces static typing, which helps catch errors at compile-time and provides better code reliability.
+- **Scalability and Maintainability:** TypeScript's static typing allows for better code organization, refactoring, and maintainability, especially in larger codebases.
+- **Ecosystem and Community:** TypeScript has a large and active community, with extensive libraries and frameworks built specifically for TypeScript development.
+
+> **Note:** `Avoid Any Type` Minimize the usage of the `any` type whenever possible. Instead, strive to define specific types or leverage TypeScript's built-in types and interfaces.
+
+## Communication with Leads
+
+In our development team, we have designated leads who provide guidance and support in different areas. Effective communication with these leads is crucial for seamless collaboration and successful project execution. Here are some key points to keep in mind:
+
+> **Direct Messaging:** Reach out to the leads via Discord for quick questions or clarifications.
+
+### Tech Lead
+
+The Tech Lead is responsible for overseeing the technical aspects of the project. When communicating with the Tech Lead, consider the following:
+
+- Seek clarification and guidance on technical requirements and implementation details.
+- Discuss architectural decisions and design considerations.
+- Raise technical challenges or issues you encounter during development.
+- Share progress updates, especially when working on complex features or significant changes.
+- Collaborate with the Tech Lead to identify and implement best practices and coding standards.
+
+### Frontend Lead
+
+The Frontend Lead focuses on frontend development and user interface design. When interacting with the Frontend Lead, consider the following:
+
+- Discuss frontend-related requirements and design specifications.
+- Seek guidance on frontend frameworks, libraries, or UI/UX considerations.
+- Collaborate on frontend architecture and component design.
+- Share frontend implementation progress and seek feedback.
+- Discuss browser compatibility and responsive design considerations.
+
+### Backend Lead
+
+The Backend Lead is responsible for backend development and infrastructure. When communicating with the Backend Lead, consider the following:
+
+- Discuss backend requirements and API specifications.
+- Seek guidance on backend technologies, frameworks, or database design.
+- Collaborate on backend architecture, data modeling, and system integrations.
+- Share backend implementation progress and seek feedback.
+- Discuss performance optimization and scalability considerations.
 
 ## Pair Programming Guidelines
 
@@ -158,66 +285,3 @@ The daily scrum meeting, also known as the daily stand-up, is a short and focuse
   - **Latecomers**: Try to be present at the start of the meeting. If you're running late, join quietly and catch up without disrupting the flow of the meeting.
 
 Remember, the daily scrum meeting is an opportunity to synchronize efforts, identify any impediments, and foster collaboration within the team. By adhering to these guidelines, we can maximize the effectiveness of our daily scrum meetings.
-
-## Code Review Process
-
-Code reviews play a crucial role in maintaining code quality, ensuring best practices, and fostering collaboration within our development team. Here's an overview of our code review process:
-
-1. **Pull Request Submission**: When you're ready to submit a new feature or bug fix, create a new branch following the branch naming convention mentioned earlier. Push your branch to the remote repository and open a pull request (PR) targeting the appropriate branch (e.g., `dev`).
-
-2. **Linting**: Upon opening a pull request, an automated linter will run to check for any coding style or formatting issues. If the linter fails, make the necessary corrections locally and push the changes to your branch. The linter should pass before requesting a code review.
-
-3. **Conflict Resolution**: If there are conflicts with the target branch, reach out to the tech lead. They will assist you in resolving the conflicts and ensuring a smooth merge process.
-
-4. **Code Review**: Once your pull request is ready for review, the reviewer will go through your code, providing feedback, suggestions, and identifying potential issues. Be responsive to the feedback and address any requested changes or improvements promptly.
-
-5. **Collaborative Discussion**: Engage in a constructive and collaborative discussion with the reviewer. Ask questions, seek clarification, and discuss any areas of uncertainty or potential improvements. The goal is to ensure that the code meets the project's standards, best practices, and requirements.
-
-6. **Iterative Refinement**: Make the necessary changes based on the feedback received during the code review. Update your branch, push the changes, and the pull request will be automatically updated. Notify the reviewer once the changes are made, and they will re-review the code.
-
-7. **Approval and Merge**: Once the reviewer approves the pull request and all requested changes have been addressed, the reviewer or a designated team lead will merge the code into the target branch.
-
-By following this code review process, we aim to maintain a high level of code quality, ensure adherence to coding standards, and foster a collaborative and learning-oriented development environment.
-
-## Frontend Development Workflow
-
-### Prerequisites
-
-Before you begin, please ensure that you have the following software installed on your machine:
-
-- [Nodejs](https://nodejs.org/en)
-- [Yarn](https://yarnpkg.com/)
-
-### Getting Started
-
-To set up the project, follow these steps:
-
-1. Clone the project repository from GitHub.
-2. Open a terminal and navigate to the project directory.
-3. Run the following command to install project dependencies:
-
-```bash
-yarn install
-```
-
-### Development Workflow
-
-To start the development server and run the application locally, use the following commands:
-
-```bash
-yarn dev
-```
-
-This will launch the development server and open the application in your default browser.
-
-> **Tip:** Any changes you make to the source code will trigger hot-reloading and automatically update the running application.
-
-### Resources
-
-Here are some resources to help you get started with the tools used in this project:
-
-- [React Documentation](https://reactjs.org/docs)
-- [Yarn Documentation](https://yarnpkg.com/getting-started)
-- [Vite Documentation](https://vitejs.dev/guide)
-
-> **Note:** This project requires the use of Yarn as the package manager. Please make sure to use Yarn instead of other package managers (e.g., npm) throughout the development process.
