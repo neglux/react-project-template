@@ -184,13 +184,13 @@ Here are some resources to help you get started with the tools used in this proj
 
 > **Note:** This project requires the use of Yarn as the package manager. Please make sure to use Yarn instead of other package managers (e.g., npm) throughout the development process.
 
-### Mentine as UI Library
+### Mantine as UI Library
 
-In our project, we utilize the Mentine UI library for frontend development.
+In our project, we utilize the Mantine UI library for frontend development.
 
-[Mentine UI library documentation](https://ui.mantine.dev/).
+[Mantine UI library documentation](https://ui.mantine.dev/).
 
-The documentation provides detailed information on component usage, customization options, theming, and other valuable resources to help you utilize Mentine effectively in your frontend development.
+The documentation provides detailed information on component usage, customization options, theming, and other valuable resources to help you utilize Mantine effectively in your frontend development.
 
 ### TypeScript
 
