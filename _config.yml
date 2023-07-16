@@ -12,10 +12,9 @@ exclude:
   - Gemfile.lock
 
 # GitHub Pages specific configuration
-remote_theme: neglux/react-project-template # Replace with the GitHub username and repository name for your desired Jekyll theme
+remote_theme: just-the-docs/just-the-docs # Replace with the GitHub username and repository name for your desired Jekyll theme
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
 # Custom configuration
 # Add any additional custom configuration options here
