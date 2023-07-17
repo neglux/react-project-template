@@ -1,11 +1,9 @@
 # Developer Guideline
 
 - [Version Control](#git-version-control)
-- [Code Review Proccess](#code-review-process)
 - [Frontend Development Workflow](#frontend-development-workflow)
 - [Communication with Leads](#communication-with-leads)
-- [Pair Programming Guidelines](#pair-programming-guidelines)
-- [Daily Scrum Meeting Guidelines](#daily-scrum-meeting-guidelines)
+- [Meeting Guidelines](#meeting-guidelines)
 
 ## Git Version Control
 
@@ -242,21 +240,9 @@ The Backend Lead is responsible for backend development and infrastructure. When
 - Share backend implementation progress and seek feedback.
 - Discuss performance optimization and scalability considerations.
 
-## Pair Programming Guidelines
+## Meeting Guidelines
 
-Pair programming is an effective way to promote learning, collaboration, and problem-solving within our team.
-
-- **Initial Independent Effort**: Spend an initial period of focused effort on the problem independently, typically between 45 minutes to 1 hour, depending on the complexity of the task.
-
-- **Assess Progress and Understanding**: After the initial independent effort, assess your progress and understanding of the problem. If you've made some progress but still need assistance or have specific questions, consider requesting a pair.
-
-- **Recognizing Stuck Points**: If you encounter significant difficulties, struggle to make progress, or feel unsure about the best approach, feel comfortable requesting a pair sooner rather than later.
-
-- **Encourage Frequent Communication**: Open communication is key. Ask questions, seek clarification, and share your challenges or concerns with the team.
-
-Remember, the goal is to balance independent learning and problem-solving with collaboration and support. Don't hesitate to reach out for assistance when needed.
-
-## Daily Scrum Meeting Guidelines
+### Daily Scrum Meets
 
 The daily scrum meeting, also known as the daily stand-up, is a short and focused meeting that helps the team stay aligned and ensure progress towards project goals. Here are the key points and guidelines for our daily scrum meetings:
 
@@ -285,3 +271,17 @@ The daily scrum meeting, also known as the daily stand-up, is a short and focuse
   - **Latecomers**: Try to be present at the start of the meeting. If you're running late, join quietly and catch up without disrupting the flow of the meeting.
 
 Remember, the daily scrum meeting is an opportunity to synchronize efforts, identify any impediments, and foster collaboration within the team. By adhering to these guidelines, we can maximize the effectiveness of our daily scrum meetings.
+
+### Pair Programming
+
+Pair programming is an effective way to promote learning, collaboration, and problem-solving within our team.
+
+- **Initial Independent Effort**: Spend an initial period of focused effort on the problem independently, typically between 45 minutes to 1 hour, depending on the complexity of the task.
+
+- **Assess Progress and Understanding**: After the initial independent effort, assess your progress and understanding of the problem. If you've made some progress but still need assistance or have specific questions, consider requesting a pair.
+
+- **Recognizing Stuck Points**: If you encounter significant difficulties, struggle to make progress, or feel unsure about the best approach, feel comfortable requesting a pair sooner rather than later.
+
+- **Encourage Frequent Communication**: Open communication is key. Ask questions, seek clarification, and share your challenges or concerns with the team.
+
+Remember, the goal is to balance independent learning and problem-solving with collaboration and support. Don't hesitate to reach out for assistance when needed.
