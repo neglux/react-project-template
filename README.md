@@ -2,7 +2,6 @@
 
 - [Version Control](#git-version-control)
 - [Frontend Development Workflow](#frontend-development-workflow)
-- [Communication with Leads](#communication-with-leads)
 - [Meeting Guidelines](#meeting-guidelines)
 
 ## Git Version Control
@@ -203,42 +202,6 @@ TypeScript is a superset of JavaScript that adds static typing capabilities, pro
 - **Ecosystem and Community:** TypeScript has a large and active community, with extensive libraries and frameworks built specifically for TypeScript development.
 
 > **Note:** `Avoid Any Type` Minimize the usage of the `any` type whenever possible. Instead, strive to define specific types or leverage TypeScript's built-in types and interfaces.
-
-## Communication with Leads
-
-In our development team, we have designated leads who provide guidance and support in different areas. Effective communication with these leads is crucial for seamless collaboration and successful project execution. Here are some key points to keep in mind:
-
-> **Direct Messaging:** Reach out to the leads via Discord for quick questions or clarifications.
-
-### Tech Lead
-
-The Tech Lead is responsible for overseeing the technical aspects of the project. When communicating with the Tech Lead, consider the following:
-
-- Seek clarification and guidance on technical requirements and implementation details.
-- Discuss architectural decisions and design considerations.
-- Raise technical challenges or issues you encounter during development.
-- Share progress updates, especially when working on complex features or significant changes.
-- Collaborate with the Tech Lead to identify and implement best practices and coding standards.
-
-### Frontend Lead
-
-The Frontend Lead focuses on frontend development and user interface design. When interacting with the Frontend Lead, consider the following:
-
-- Discuss frontend-related requirements and design specifications.
-- Seek guidance on frontend frameworks, libraries, or UI/UX considerations.
-- Collaborate on frontend architecture and component design.
-- Share frontend implementation progress and seek feedback.
-- Discuss browser compatibility and responsive design considerations.
-
-### Backend Lead
-
-The Backend Lead is responsible for backend development and infrastructure. When communicating with the Backend Lead, consider the following:
-
-- Discuss backend requirements and API specifications.
-- Seek guidance on backend technologies, frameworks, or database design.
-- Collaborate on backend architecture, data modeling, and system integrations.
-- Share backend implementation progress and seek feedback.
-- Discuss performance optimization and scalability considerations.
 
 ## Meeting Guidelines
 
